@@ -22,8 +22,11 @@ console.log ('long Names', longNames)
 // 3. Rimuovi 'Ed' dall'array teachers
 const teachersWithoutEd = teachers.filter(name => name !== 'Ed');
 console.log('Without Ed:', teachersWithoutEd);
+
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
+const isFabioPresent =teachers . includes('fabio');
+console.log ('fabio present?' , isFabioPresent);
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
 
